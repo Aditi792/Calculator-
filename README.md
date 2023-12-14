@@ -1,2 +1,2 @@
 # Simple Calculator 
-[link] https://main--creative-otter-13da27.netlify.app/
+[Click here to visit calculator] (https://simple-online-calculator-by-aditi.netlify.app/)
