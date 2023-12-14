@@ -18,10 +18,13 @@ buttons.forEach(button => {
     }
 
     else if(ButtonPressValue == "="){
-
-        screenValue = eval(screenValue)
-        screen.innerHTML = screenValue
-        
+        if(screenValue == " "){
+            screen.innerHTML = 0 
+        }
+        else{
+            screenValue = eval(screenValue)
+            screen.innerHTML = screenValue
+        }
     }
     else{
         screenValue += ButtonPressValue
