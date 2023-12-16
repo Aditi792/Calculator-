@@ -31,6 +31,10 @@ buttons.forEach(button => {
                 } 
             }
     }
+    else if (screen.innerHTML > 100000000000000){
+        alert("Can't enter more than 15 digits")
+    }
+    
     else{
         screenValue += ButtonPressValue
         screen.innerHTML = screenValue
